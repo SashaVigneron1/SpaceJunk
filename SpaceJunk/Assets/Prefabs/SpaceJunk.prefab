@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2598949794916162268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7337685222102235862}
+  - component: {fileID: 2664188897043700863}
+  - component: {fileID: 8492978546518360723}
+  m_Layer: 7
+  m_Name: SpaceJunk
+  m_TagString: Junk
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7337685222102235862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598949794916162268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2664188897043700863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598949794916162268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bd09da630bf36418cca4ad2759140d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _points: 5
+  minimumMovementSpeed: 0.05
+  maximumMovementSpeed: 0.2
+  meshes:
+  - {fileID: 1775231851007840624, guid: 6f49b2700d00c6c42b33a20f4ea9a609, type: 3}
+  - {fileID: 2011404572547663463, guid: c4f3c66b0ff54614fbf56a9a358fc4f7, type: 3}
+  - {fileID: 3683264433643224064, guid: 3a0837d894c5a3245a944af46f30c9aa, type: 3}
+  - {fileID: 6164073845001701337, guid: 537c7839a41c72540b23e36533c4f1bc, type: 3}
+  - {fileID: 2262946332369074292, guid: c7111dae4d399a34a9e04bd3d0fb01de, type: 3}
+  - {fileID: 7255582328746159447, guid: ebd60e62b7202c54dacc1d627fbe5286, type: 3}
+  - {fileID: 312200032488007776, guid: 8f0684c1c80432d43a24a7400fddce85, type: 3}
+  - {fileID: 3633301275229729905, guid: cc87e3a4907742f46add9ba353651fca, type: 3}
+  - {fileID: 536010607524077377, guid: f353064264da8534eafc57942fa3ae67, type: 3}
+  - {fileID: 536010607524077377, guid: f353064264da8534eafc57942fa3ae67, type: 3}
+  - {fileID: 1865166058358712183, guid: 178eaef35cae28b4e917a163e6828234, type: 3}
+  - {fileID: 5978371027924405420, guid: 1c236184de4926a4eb4e0d7e871da98c, type: 3}
+  - {fileID: 3683264433643224064, guid: 3a0837d894c5a3245a944af46f30c9aa, type: 3}
+  - {fileID: 6409053635229311696, guid: 3d20109ce5e639b40bc7d1e66b2c3f0f, type: 3}
+  - {fileID: 2931950570809300223, guid: a8f22bca0eacf6f41af02e0b789078b1, type: 3}
+  - {fileID: 4938398265841344476, guid: a3b4034243687ae4bab5bd2e6fdbc6e3, type: 3}
+  - {fileID: 223682344922400143, guid: 3acbf90f245f07c488b8cec6cf522f75, type: 3}
+  - {fileID: 7951615366310952170, guid: ebc1392d8c65f8c48826724650b828eb, type: 3}
+  - {fileID: 4131776239309333840, guid: 83308771800432b4c9f58e0c152858db, type: 3}
+  - {fileID: 3175267650049180088, guid: 61318c5059bbd0c4d9131bf269fb429b, type: 3}
+  - {fileID: 4091771124897163827, guid: dc03ada8f02d3d14d8895c477baceeaf, type: 3}
+  - {fileID: 7000821190460730438, guid: 0b083611a4a17e14ebdc00b7a3cd960f, type: 3}
+  - {fileID: 2635372213220038347, guid: a0c4e123c403bc0458b50326e39064c3, type: 3}
+  - {fileID: 6557005875215425826, guid: 370a9ba1d7d9c394a9b4e52d84b35f4b, type: 3}
+  - {fileID: 4727246735408964878, guid: 769a1269b13cb0a44bb5fcc99cb2dd44, type: 3}
+  - {fileID: 7414417489377607588, guid: 8e70fa594535d1d48a4fc53213d7dea4, type: 3}
+  - {fileID: 6445609786122484278, guid: c98209fa17b45004fbdfa73e46b7342c, type: 3}
+  physicMaterial: {fileID: 13400000, guid: 38279043198788e4cae5d73030878a02, type: 2}
+--- !u!54 &8492978546518360723
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598949794916162268}
+  serializedVersion: 2
+  m_Mass: 0.1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 2
